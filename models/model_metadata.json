@@ -1,0 +1,86 @@
+{
+  "metrics": {
+    "trained_at": "2026-08-22T14:44:53.973143",
+    "per_entreprise": {
+      "Ooredoo": {
+        "r2_log": 0.11126565573724079,
+        "rmse_log": 0.7299180070781465,
+        "mae_log": 0.531999187585274,
+        "r2_raw": 0.009847049411887299,
+        "rmse_raw": 9.801351149885523,
+        "mae_raw": 2.522432439816845,
+        "n_train": 7128,
+        "n_test": 1783
+      },
+      "Orange": {
+        "r2_log": 0.18914608558632773,
+        "rmse_log": 0.8518610652682238,
+        "mae_log": 0.5944006182125988,
+        "r2_raw": 0.7211537811756479,
+        "rmse_raw": 29.121730876437674,
+        "mae_raw": 5.03836819548214,
+        "n_train": 14272,
+        "n_test": 3568
+      },
+      "TT": {
+        "r2_log": 0.14811907733915775,
+        "rmse_log": 0.6628557904842997,
+        "mae_log": 0.44600706257793016,
+        "r2_raw": -0.00010097104785811162,
+        "rmse_raw": 39.11289238806182,
+        "mae_raw": 2.9624750834548483,
+        "n_train": 9690,
+        "n_test": 2423
+      }
+    },
+    "global": {
+      "r2_log": 0.1614638004059038,
+      "rmse_log": 0.7777214950442903,
+      "mae_log": 0.5385517524594509,
+      "r2_raw": 0.40373665164042605,
+      "rmse_raw": 22.256203570776943,
+      "mae_raw": 3.818183618232107,
+      "n_train": 31091,
+      "n_test": 7773,
+      "entreprises": [
+        "Ooredoo",
+        "Orange",
+        "TT"
+      ]
+    }
+  },
+  "features_global": [
+    "hour",
+    "day_of_week",
+    "month",
+    "message_length",
+    "has_hashtag",
+    "has_link",
+    "has_emoji",
+    "is_weekend",
+    "is_business_hours",
+    "entreprise",
+    "content_categorie",
+    "time_slot_id"
+  ],
+  "features_per_entreprise": [
+    "hour",
+    "day_of_week",
+    "month",
+    "message_length",
+    "has_hashtag",
+    "has_link",
+    "has_emoji",
+    "is_weekend",
+    "is_business_hours",
+    "content_categorie",
+    "time_slot_id"
+  ],
+  "target": "total_engagement",
+  "feature_defaults": {
+    "message_length": 141.0,
+    "has_hashtag": 0,
+    "has_link": 0,
+    "has_emoji": 0
+  }
+}

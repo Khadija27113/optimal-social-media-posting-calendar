@@ -1,0 +1,14 @@
+entreprise,jour,heure,type_contenu,score_relatif_predit,fiabilite_n_posts
+TT,Mardi,7,added_photos,1.4714293479919434,7.0
+TT,Mercredi,7,added_photos,1.539844274520874,6.0
+TT,Mercredi,10,added_photos,1.4824838638305664,53.0
+TT,Mercredi,19,added_video,5.996223449707031,8.0
+TT,Jeudi,10,added_photos,1.5942357778549194,54.0
+TT,Jeudi,13,added_photos,1.5633397102355957,31.0
+TT,Jeudi,19,added_video,6.643375873565674,6.0
+TT,Vendredi,10,added_photos,1.7468477487564087,49.0
+TT,Vendredi,13,added_photos,1.771903395652771,31.0
+TT,Vendredi,19,added_photos,1.5460172891616821,9.0
+TT,Samedi,10,added_photos,1.619356393814087,59.0
+TT,Samedi,13,added_photos,1.6925631761550903,22.0
+TT,Dimanche,13,added_photos,1.5696772336959839,21.0
